@@ -1,4 +1,7 @@
 import React from "react";
+import { MdOutlineWatchLater } from "react-icons/md";
+import { PiChartLineLight } from "react-icons/pi";
+import { RiHome2Line } from "react-icons/ri";
 import { NavLink } from "react-router";
 
 const Navbar = () => {
@@ -6,35 +9,35 @@ const Navbar = () => {
     <>
       <NavLink
         to="/"
-        className={({ isActive }) =>
-          isActive
+        className={({ isActive }) => `flex items-center gap-1 rounlg 
+         ${ isActive
             ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg"
-            : "p-2 text-gray-500"
+            : "p-2 text-gray-500"}`
         }
       >
-        Home
+       <RiHome2Line /> Home
       </NavLink>
 
       <NavLink
         to="/TimeLine"
-        className={({ isActive }) =>
-          isActive
+       className={({ isActive }) => `flex items-center gap-1 rounlg 
+         ${ isActive
             ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg"
-            : "p-2 text-gray-500"
+            : "p-2 text-gray-500"}`
         }
       >
-        Timeline
+       <MdOutlineWatchLater /> Timeline
       </NavLink>
 
       <NavLink
         to="/Stats"
-        className={({ isActive }) =>
-          isActive
+        className={({ isActive }) => `flex items-center gap-1 rounlg 
+         ${ isActive
             ? "px-4 p-2 text-white bg-[#244D3F] rounded-lg"
-            : "p-2 text-gray-500"
+            : "p-2 text-gray-500"}`
         }
       >
-        Stats
+        <PiChartLineLight />Stats
       </NavLink>
     </>
   );
