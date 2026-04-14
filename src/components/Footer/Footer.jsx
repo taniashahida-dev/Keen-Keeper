@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 text-center">
 
         {/* Title */}
-        <h1 className="text-6xl font-bold mb-4">KeenKeeper</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">KeenKeeper</h1>
 
         {/* Description */}
         <p className="text-sm text-gray-200 mb-6">

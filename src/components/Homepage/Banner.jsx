@@ -2,9 +2,9 @@ import React from 'react';
 
 const Banner = () => {
     return (
-         <div className="bg-gray-100 py-16">
-     <div>
-         <div className="w-10/12 mx-auto px-4 text-center">
+      
+     
+         <div className="py-16  text-center">
 
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Friends to keep close in your life
@@ -49,11 +49,8 @@ const Banner = () => {
         </div>
 
       </div>
-      <div className='w-10/12 mx-auto my-10'>
-        <h1 className='text-3xl font-semibold'>All Friends</h1>
-      </div>
-     </div>
-    </div>
+     
+   
     );
 };
 
