@@ -10,14 +10,14 @@ const StatsPage = () => {
     { name: "Vedio", value: vedio.length, fill: "#FFBB28" },
   ];
   return (
-    <div className="bg-gray-50 p-5 md:p-10 lg:p-20">
+    <div className="bg-gray-50 p-3 md:p-10 lg:p-20">
       <div>
         <h1 className="text-3xl md:text-5xl w-11/12 md:w-8/12 mx-auto font-semibold my-10">
           Friendship Analytics
         </h1>
       </div>
-      <div className=" bg-white rounded-2xl w-8/12 mx-auto py-4 md:py-10">
-        <p>By Interaction Type</p>{" "}
+      <div className=" bg-white rounded-2xl w-11/12 md:w-8/12 mx-auto py-4 md:py-10">
+        <p className="ml-6">By Interaction Type</p>{" "}
         <div className="w-full h-100 flex justify-center items-center ">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
