@@ -31,7 +31,7 @@ const TimeLine = () => {
                 <select
                     value={filter}
                     onChange={(e) => setFilter(e.target.value)}
-                    className="border p-2 rounded mb-4"
+                    className="border p-2 rounded mb-4 "
                 >
                     <option value="all">All</option>
                     <option value="call">Call</option>
