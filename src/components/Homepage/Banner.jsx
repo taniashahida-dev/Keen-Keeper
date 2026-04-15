@@ -1,6 +1,9 @@
 import React from 'react';
+import useData from '../../hooks/useData';
 
 const Banner = () => {
+  const {friends} = useData()
+ 
   
     return (
       
@@ -26,7 +29,7 @@ const Banner = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 ">
 
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-2 cursor-pointer">
-            <h2 className="text-3xl font-bold text-[#244D3F]">10</h2>
+            <h2 className="text-3xl font-bold text-[#244D3F]">{friends.length}</h2>
             <p className="text-gray-500  mt-2">Total Friends</p>
           </div>
 

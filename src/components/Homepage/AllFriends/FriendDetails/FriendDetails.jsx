@@ -34,7 +34,7 @@ const handleVedio=()=>{
     );
   return (
     <div className=" bg-gray-50 ">
-      <div className="w-8/12 mx-auto py-20 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="w-11/12 md:w-8/12 mx-auto py-20 grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6">
         {/* LEFT */}
         <div className="bg-white rounded-xl shadow p-6 text-center">
           <img
@@ -126,17 +126,17 @@ const handleVedio=()=>{
             <h3 className="mb-4 font-medium text-gray-700">Quick Check-In</h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <button onClick={handleCall} className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
+              <button onClick={handleCall} className="flex flex-col items-center justify-center bg-gray-100 p-3 md:p-6 rounded-lg hover:bg-gray-200">
                 <FaPhoneAlt />
                 <span className="mt-2 text-sm">Call</span>
               </button>
 
-              <button onClick={handleText} className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
+              <button onClick={handleText} className="flex flex-col items-center justify-center bg-gray-100 p-3 md:p-6 rounded-lg hover:bg-gray-200">
                 <FaRegCommentDots />
                 <span className="mt-2 text-sm">Text</span>
               </button>
 
-              <button onClick={handleVedio} className="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg hover:bg-gray-200">
+              <button onClick={handleVedio} className="flex flex-col items-center justify-center bg-gray-100 p-3 md:p-6 rounded-lg hover:bg-gray-200">
                 <FaVideo />
                 <span className="mt-2 text-sm">Video</span>
               </button>

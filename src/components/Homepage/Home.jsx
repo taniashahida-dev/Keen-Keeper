@@ -5,7 +5,7 @@ import AllFriends from './AllFriends/AllFriends';
 const Home = () => {
     return <>
    <div className=' bg-gray-100 '>
-   <div className='  w-10/12 mx-auto'>
+   <div className=' w-11/12 md:w-10/12 mx-auto'>
       <Banner/>
     <AllFriends/>
    </div>
