@@ -4,7 +4,8 @@ import { Link } from 'react-router';
 const FriendsCard = ({friend}) => {
     return (
      
-      <Link to={`/Friend/${friend.id}`} className="bg-white rounded-2xl shadow-lg p-4 flex flex-col justify-center  items-center text-center">
+      <Link to={`/Friend/${friend.id}`} className="bg-white rounded-2xl shadow-lg p-2
+       md:p-4 flex flex-col justify-center  items-center text-center">
         
         {/* Profile Image */}
         <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-gray-100">
@@ -22,7 +23,7 @@ const FriendsCard = ({friend}) => {
         {/* Tags */}
         <div className="flex gap-2 mb-6">
          {
-            friend.tags.map((tag,i)=> <span key={i} className="px-3 py-1 bg-green-100 text-green-700 text-xs font-semibold rounded-full uppercase tracking-wider">
+            friend.tags.map((tag,i)=> <span key={i} className="px-1 md:px-3 py-1 bg-green-100 text-green-700 text-xs font-semibold rounded-full uppercase tracking-wider">
           {tag}
           </span>)
          }
