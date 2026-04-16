@@ -14,7 +14,7 @@ const AllFriends = () => {
 
         <div>
          <div className=' text-4xl font-semibold my-10'>Your Friends</div>
-         <div className='grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-8 pb-15'>
+         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8 pb-15'>
             {
                 friends.map(friend=> <FriendsCard key={friend.id} friend={friend}></FriendsCard> )
             }
