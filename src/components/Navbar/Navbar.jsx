@@ -43,7 +43,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="w-11/12 mx-auto flex items-center justify-between">
 
         {/* LEFT: Logo + Mobile dropdown */}

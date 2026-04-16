@@ -6,6 +6,7 @@ import { BsClock } from "react-icons/bs";
 import { MdArchive, MdDelete } from "react-icons/md";
 import { FaPhoneAlt, FaRegCommentDots, FaVideo } from "react-icons/fa";
 import { FriendProvider } from "../../../../Contexts/Contexts";
+import { toast } from "react-toastify";
 
 const FriendDetails = () => {
   const { id } = useParams();
@@ -17,13 +18,16 @@ const {call,setCall,text,setText,vedio,setVedio} = useContext(FriendProvider)
 
 const  handleCall=()=>{
     setCall([...call,data])
+    toast.success(`Call from ${data.name}` )
 }
 
 const handleText=()=>{
 setText([...text,data])
+toast.success(`Text from ${data.name}`)
 }
 const handleVedio=()=>{
     setVedio([...vedio,data])
+    toast.success(`Video from ${data.name}` )
 }
 //   console.log(data);
   if (loading)
