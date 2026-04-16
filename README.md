@@ -1,16 +1,32 @@
-# React + Vite
+# 🛡️ KeenKeeper - Personal Relationship Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a professional web application built to help users nurture and maintain their personal connections. Designed with a sleek, Figma-style interface, it allows users to track interactions, set goals, and visualize their social health.
 
-Currently, two official plugins are available:
+## 🔗 Live Link
+[Click here to view the Live Site](https://keen-keeper-sepia.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+* **Relationship Dashboard**: Categorizes friends based on status like "on-track", "almost due", or "overdue".
+* <img width="1901" height="917" alt="image" src="https://github.com/user-attachments/assets/746257e4-a0a2-4d1c-8bb1-a5b39d395b90" />
 
-## React Compiler
+* **Quick Check-In**: Instant logging for Calls, Texts, and Video chats from the friend's profile.
+* 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Dynamic Timeline**: A chronological history of all interactions with filtering options for each activity type.
+* 
 
-## Expanding the ESLint configuration
+* **Friendship Analytics**: Interactive donut charts using Recharts to visualize communication patterns.
+* 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Responsive UI**: Fully optimized for mobile, tablet, and desktop using Tailwind CSS and DaisyUI.
+* <img width="875" height="891" alt="image" src="https://github.com/user-attachments/assets/eab274af-f8be-446d-a3ba-386430188faf" />
+
+
+
+## 🛠️ Tech Stack
+* **Frontend Library**: React.js
+* **Routing**: React Router DOM
+* **Styling**: Tailwind CSS & DaisyUI
+* **Icons**: React Icons
+* **Data Visualization**: Recharts
+* **State Management**: React Context API
