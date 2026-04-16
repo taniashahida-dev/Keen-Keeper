@@ -11,7 +11,7 @@ const Banner = () => {
          <div className="py-16  text-center">
 
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          Friends to keep close in your life
+          Friends to keep close in your life......
         </h1>
 
        
